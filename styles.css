@@ -46,18 +46,18 @@ ul {
 
 #about {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
-  align-items: flex-start; /* Align text to the left */
+  flex-direction: column; 
+  align-items: flex-start; 
   justify-content: center;
   padding: 50px;
-  height: auto; /* Adjust height dynamically */
+  height: auto; 
   min-height: 400px;
   color: white;
   background-color: #000;
 }
 
 .about-content {
-  max-width: 800px; /* Set max width for better readability */
+  max-width: 800px;
   text-align: left;
 }
 
@@ -70,7 +70,7 @@ ul {
 #about p {
   font-size: 1.3rem;
   line-height: 1.6;
-  text-align: justify; /* Makes text look more structured */
+  text-align: justify;
 }
 
 
@@ -84,33 +84,32 @@ ul {
 /* خلفية الهيدر */ 
 /* From Uiverse.io by SelfMadeSystem */ 
 header {
-  position: relative; /* For absolute positioning of .container */
-  overflow: hidden; /* Ensure the background doesn't overflow */
+  position: relative; 
+  overflow: hidden; 
   color: white;
-  padding: 50px 0; /* Decrease padding */
+  padding: 50px 0; 
   text-align: center;
-  height: 70vh; /* Adjust height for a smaller header */
-  display: flex; /* Use flexbox for centering */
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: center; /* Center vertically */
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better contrast */
-  z-index: 2; /* Ensure header content is above the background */
+  height: 70vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 2; /*ترتيب العناصر */
 
 }
 
 header h1 {
-  font-size: 5rem; /* Adjust font size for the title */
+  font-size: 5rem; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 0; /* Remove default margin */
-  z-index: 2; /* Ensure header content is above the background */
+  margin: 0; 
+  z-index: 2; 
 
 }
 
 header p {
-  font-size: 2rem; /* Adjust font size for the subtitle */
-  margin: 10px 0 0; /* Add top margin for spacing */
-  z-index: 2; /* Ensure header content is above the background */
-
+  font-size: 2rem; 
+  margin: 10px 0 0;
+  z-index: 2; 
 }
 .container::after {
   content: "";
@@ -292,7 +291,7 @@ img {
   text-align: center;
 }
 
-/* Center the heading */
+
 #experience h2 {
   font-size: 3rem;
   margin-bottom: 30px;
@@ -310,7 +309,7 @@ img {
   border-radius: 2px;
 }
 
-/* Flex container for content */
+
 .experience-container {
   display: flex;
   align-items: center;
@@ -320,7 +319,7 @@ img {
   margin: 0 auto;
 }
 
-/* Experience text content */
+
 .experience-content {
   flex: 1;
   text-align: left;
@@ -341,7 +340,7 @@ img {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .experience-container {
     flex-direction: column;
@@ -369,7 +368,7 @@ img {
   overflow: hidden;
 }
 
-/* Center the heading */
+
 #activities h2 {
   font-size: 3rem;
   margin-bottom: 30px;
@@ -388,11 +387,11 @@ img {
   border-radius: 2px;
 }
 
-/* Activities Container */
+
 .activities-container {
   width: 100%;
-  max-width: 900px; /* Adjust max-width for better visibility */
-  height: 250px; /* Increase height for bigger cards */
+  max-width: 900px; 
+  height: 250px; 
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -401,7 +400,7 @@ img {
   align-items: center;
 }
 
-/* Individual Activity Cards */
+
 .activity-card {
   width: 100%;
   height: 100%;
@@ -417,12 +416,12 @@ img {
   justify-content: center;
   position: absolute;
   top: 0;
-  left: 100%; /* Initially off-screen */
+  left: 100%; 
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
 
-/* Active Card (Visible Card) */
+
 .activity-card.active {
   left: 0;
   opacity: 1;
@@ -437,7 +436,7 @@ img {
   border: none;
   color: white;
   font-size: 1.5rem;
-  width: 50px;  /* Bigger Clickable Area */
+  width: 50px;  
   height: 50px;
   cursor: pointer;
   border-radius: 50%;
@@ -449,19 +448,19 @@ img {
   z-index: 10;
 }
 
-/* Hover Effect */
+
 .nav-button:hover {
   background: #008c9e;
   transform: translateY(-50%) scale(1.1);
 }
 
-/* Click Effect */
+
 .nav-button:active {
   background: #00738c;
   transform: translateY(-50%) scale(0.95);
 }
 
-/* Left & Right Button Positions */
+
 #left-btn {
   left: 10px;
 }
@@ -469,14 +468,13 @@ img {
 #right-btn {
   right: 10px;
 }
-/* Dots Indicator Container */
+
 .dots-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-/* Individual Dots */
 .dot {
   width: 12px;
   height: 12px;
@@ -486,7 +484,7 @@ img {
   transition: background 0.3s ease-in-out;
 }
 
-/* Active Dot */
+
 .active-dot {
   background: #00bcd4;
   width: 14px;
@@ -507,7 +505,7 @@ img {
   text-align: center;
 }
 
-/* Center the heading */
+
 #skills h2 {
   font-size: 3rem;
   margin-bottom: 30px;
@@ -846,6 +844,10 @@ ul {
     transform: scale(0.95);
   }
   
+
+
+
+
 
 
 
